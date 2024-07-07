@@ -1,5 +1,6 @@
 # Git Plugin
 
+[![fluentci pipeline](https://shield.fluentci.io/x/git)](https://pkg.fluentci.io/git)
 [![ci](https://github.com/fluentci-io/git-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/fluentci-io/git-plugin/actions/workflows/ci.yml)
 
 This plugin sets up your CI/CD pipeline with a specific version of [Git](https://git-scm.com/).
