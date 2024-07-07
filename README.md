@@ -52,5 +52,5 @@ Github Actions:
 - name: Show git version
   run: |
     type git
-    git version
+    git --version
 ```
