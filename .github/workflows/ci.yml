@@ -25,7 +25,7 @@ jobs:
           args: |
             setup
           working-directory: example
-      - name: Show cue version
+      - name: Show git version
         run: |
           type git
           git --version
