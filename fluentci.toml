@@ -1,0 +1,11 @@
+[package]
+name = "git-plugin"
+version = "0.1.0"
+description = "This plugin setup git for FluentCI"
+license = "MIT"
+keywords = [
+  "git"
+]
+authors = [
+  "Tsiry Sandratraina <tsiry.sndr@fluentci.io>"
+]
