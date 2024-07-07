@@ -11,6 +11,9 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v3
+      - name: Remove preinstalled Git
+        run: |
+          sudo rm `which git`
       - name: Setup example
         run: |
           mkdir -p example/.fluentci
